@@ -3,6 +3,9 @@ module "rg" {
   rg     = var.rg
   
 }
+
+# module "Storage_account" {
+#     depends_on = [ module.rg ]
 module "rg" {
   source = "../Module/ResourceGroup Module"
   rg     = var.rg
