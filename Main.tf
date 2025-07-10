@@ -14,8 +14,13 @@ module "rg" {
 module "rg1" {
   source = "../Module/ResourceGroup Module"
   rg1    = var.rg
-  
 }
+
+#maine ek rhg ka cod eadd 
+
+#dk xo moekd kexlk mscplkdp
+#mcojewoijfdoije idj
+
 
 # module "Storage_account" {
 #     depends_on = [ module.rg ]
