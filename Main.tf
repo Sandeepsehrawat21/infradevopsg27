@@ -14,11 +14,11 @@ module "rg" {
   rg     = var.rg
   
 }
-module "rg5" {
-  source = "../Module/ResourceGroup Module"
-  rg     = var.rg6
+# module "rg5" {
+#   source = "../Module/ResourceGroup Module"
+#   rg     = var.rg6
   
-}
+# }
 
 
 module "rg1" {
